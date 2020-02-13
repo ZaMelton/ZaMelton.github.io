@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.navbar {
+  background-color: rgb(36, 158, 167);
+  overflow: auto;
+  height:80px;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.navbar-brand:hover{
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.nav-link {
+  color:rgba(255, 255, 255, 1);
+}
+
+.nav-link:hover {
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.rounded-circle{
+    width:25%;
+    height:25%;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.jumbotron{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.about{
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom:0px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.skillListStart{
+    margin-top: 40px;
+}
+
+.contactArea{
+    padding-top: 75px;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-bottom: 75px;
+    background-color: rgb(36, 158, 167);
+}
+
+.contactTitle{
+    text-align: center;
+}
+
+.connectContent{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.experienceCard{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contactCard{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.phone{
+    margin-top:2%;
+}
+
+.projectArea{
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.projectTitle{
+    text-align: center;
+}
+
+.projectRow{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.cardContent{
+    margin: auto;
+}
+
+.projectLink{
+    color:black;
+}
+
+.projectLink:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.projectLink:hover .ship{
+    color:rgb(19, 20, 94);
+}
+
+.projectLink:hover .tree{
+    color:darkgreen;
+}
+
+.projectLink:hover .list{
+    color:rgb(179, 79, 12);
+}
+
+.projectLink:hover .paw{
+    color:rgb(63, 40, 9);
+}
+
+.projectLink:hover .money{
+    color:rgb(103, 175, 88);
+}
+
+.projectLink:hover .lemon{
+    color: rgb(248, 222, 76);
+}
+
+.ship{
+    font-size: 12px;
+}
+
+.tree{
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.list{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.paw{
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.money{
+    font-size: 12px;
+}
+
+.lemon{
+    font-size: 12px;
+    padding-left: 20px;
+}
